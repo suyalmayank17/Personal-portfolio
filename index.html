@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design | Codehal</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>MAYANK SUYAL</h1>
+            <p>Highly motivated Computer Science student eager to <br>
+                apply and expand my skills in real-world settings.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/suyalmayank17"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/mayanksuyal17/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.twitter.com/MayankSuyal5"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <a href="images/ResumeMS.pdf " download class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style = '--i:0;'>
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style = '--i:1;'>
+                    <i class='bx bxs-data'></i>
+                    <h3>Frontend <br> Developer</h3>
+                </div>
+                <div class="profession" style = '--i:2;'>
+                    <i class='bx bx-laptop'></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="profession" style = '--i:3;'>
+                    <i class='bx bx-desktop'></i>
+                    <h3>ML Engineer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home1r.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi ,I am here to help you</h3>
+            <p>I am a motivated Computer Science Engineering student specializing in Data Science.
+            With a strong foundation in programming and data analysis, I am passionate about leveraging data for meaningful insights and driving the development of innovative software solutions.
+            Throughout my academic journey, I have excelled in coursework and projects, demonstrating my commitment to excellence and a thirst for knowledge. 
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/p2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Built a portfolio website using HTML, CSS and Javascript</p>
+                    <a href="#"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p3.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Excel Dashboard</h4>
+                    <p>Created a dashboard using MS Excel. Also done data analysis and visualization.</p>
+                    <a href="https://github.com/suyalmayank17/Data-Analytics_Projects/tree/main/Excel%20Dashboard"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Movie Recommender System</h4>
+                    <p>Created a movie recommendation system using machine learning.</p>
+                    <a href="https://github.com/suyalmayank17/Movie-Recommendation-System"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Car Price Prediction</h4>
+                    <p>Implemented a ML model to predict car price based on dataset given.</p>
+                    <a href="https://github.com/suyalmayank17/OIBSIP/blob/main/Task3/Price_Prediction.ipynb"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Unemployment Analysis</h4>
+                    <p>Analyzed unemployment dataset of India with the use of different python libraries.</p>
+                    <a href="https://github.com/suyalmayank17/OIBSIP/blob/main/Task2/Unemployment_Analysis_With_Python.ipynb"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p7.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Iris Data Classification</h4>
+                    <p>Classified different flowers based on features using python.</p>
+                    <a href="https://github.com/suyalmayank17/OIBSIP/blob/main/Task1/Iris%20dataset%20classification.ipynb"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            
+            
+
+        </div>
+    </section>
+
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form name = "submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" name = "Name" placeholder="Full Name">
+                <input type="email" name = "Email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name = "Number" placeholder="Mobile Number">
+                <input type="text" name = "Subject" placeholder="Email Subject">
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" name="Send Message" class="btn">
+            
+        </form>
+        <span id = 'msg'></span>
+
+    </section>
+
+
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Mayank Suyal | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxNI_ozOSOT_T4Ao6bofnRJLdQNQyz33_0FnanptH--jFwrxA9Nokpp0ONJtDPtOl-O5w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
